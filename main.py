@@ -1,6 +1,6 @@
 from Classifier import Classifier
 from Documents import Documents
-from Stemmer import Stemmer
+from Stemmer_Mutual_Information import Stemmer
 from Training import Training
 
 
@@ -21,8 +21,9 @@ testDocs = Documents('test', testPath)
 documents = [trainingDocs, testDocs]
 
 dictionary = {}
+dictionarySize = 35000                          # iperparametro
 
-stemmer.loadDocumentsAndBuildDictionary(listOfCategories, documents, dictionary)
+stemmer.loadDocumentsAndBuildDictionary(listOfCategories, documents, dictionary, dictionarySize)
 
 trainerBernoulli = Training(listOfCategories, documents[0])
 trainerMultinomiale = Training(listOfCategories, documents[0])
