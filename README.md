@@ -16,7 +16,7 @@ Il Dataset è suddiviso in due diverse cartelle:
 
 # Come riprodurre i risultati
 
-Per riprodurre i risultati sarà sufficiente scaricare i sei diversi file .py e i due Datasets. I Datasets possono essere scaricato dal seguente link: http://qwone.com/~jason/20Newsgroups/. Tra i diversi Datasets scaricare il secondo ,"bydate", che è già suddiviso in documenti di Test e documenti di Training. Una volta scaricato il Dataset basterà estrarlo ed inserire le due cartelle Train e Test nella stessa cartella del file main.py. A questo punto si potrà semplicemente eseguire il main e attendere la classificazione di tutti i documenti. Si può scegliere la dimensione massima del dizionario cambiando l'iperparametro 'dictionarySize' nel main. Consiglio comunque di lasciare il valore preimpostato poichè dopo diverse prove si è dimostrato essere il migliore per entrambe le tipologie di classificazione.
+Per riprodurre i risultati sarà sufficiente scaricare i sei diversi file .py e i due Datasets. I Datasets possono essere scaricati dal seguente link: http://qwone.com/~jason/20Newsgroups/. Tra i diversi Datasets scaricare il secondo ,"bydate", che è già suddiviso in documenti di Test e documenti di Training. Una volta scaricato il Dataset basterà estrarlo ed inserire le due cartelle Train e Test nella stessa cartella del file main.py. A questo punto si potrà semplicemente eseguire il main e attendere la classificazione di tutti i documenti. Si può scegliere la dimensione massima del dizionario cambiando l'iperparametro 'dictionarySize' nel main. Consiglio comunque di lasciare il valore preimpostato poichè dopo diverse prove si è dimostrato essere il migliore per entrambe le tipologie di classificazione.
 
 # Funzionamento del programma
 
