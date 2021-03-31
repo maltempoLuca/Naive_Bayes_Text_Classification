@@ -129,7 +129,7 @@ class Stemmer:
             colonnePerDoc.update({dictionary['0']: 1})
 
     def mutualInformation(self, dictionary, P, totaloccurrences, maxWord):
-        if maxWord != 0 & maxWord < len(dictionary):
+        if maxWord != 0 and maxWord < len(dictionary):
             TO = totaloccurrences[0]
             Pc = [0 for i in range(len(P))]     # occorrenze di parole in C tra tutti i documenti
             Pw = [0 for i in range(len(P[0]))]  # occorrenze di parola w tra tutti i documenti
